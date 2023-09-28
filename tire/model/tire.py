@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 
-class Engine(ABC):
+class Tires(ABC):
     def __init__(self):
         pass
 
     @abstractmethod
-    def engine_should_be_serviced(self):
+    def tire_should_be_serviced(self):
         pass

@@ -1,9 +1,8 @@
 from abc import ABC, abstractmethod
 
 class Battery(ABC):
-    def __init__(self, passed_battery, passed_engine):
-        self.CarBattery = passed_battery
-        self.CarEngine = passed_engine
+    def __init__(self):
+        pass
 
     @abstractmethod
     def battery_needs_service(self):
