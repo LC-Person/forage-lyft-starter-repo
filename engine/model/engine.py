@@ -6,5 +6,5 @@ class Engine(ABC):
         self.CarEngine = passed_engine
 
     @abstractmethod
-    def needs_service(self):
+    def engine_should_be_serviced(self):
         pass
